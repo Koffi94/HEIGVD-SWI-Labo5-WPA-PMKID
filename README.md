@@ -61,6 +61,19 @@ Voici la sortie de notre script `pmkid_attack.py` :
 A manière de comparaison, réaliser l'attaque sur le [fichier de capture](files/PMKID_handshake.pcap) utilisant la méthode décrite [ici](https://hashcat.net/forum/thread-7717.html).
 
 
+
+Voici le résultat des commandes `hcxpcaptool` et `hashcat` :
+
+![](./img/part3_1.jpg)
+
+![](./img/part3_2.jpg)
+
+Cette approche apporte certains avantages qui sont les suivants :
+
+- Très simple à mettre en place.
+- Optimisation des performances de bruteforcing avec hashcat.
+
+
 ## Livrables
 
 Un fork du repo original . Puis, un Pull Request contenant **vos noms** et :
