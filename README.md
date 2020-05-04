@@ -50,9 +50,28 @@ Utilisant votre script précédent, le modifier pour réaliser les taches suivan
    - Différents &rarr; Essayer avec une nouvelle passphrase
 
 
+
+Voici la sortie de notre script `pmkid_attack.py` :
+
+![](./img/part1+2_1.png)
+
+
 ### 3. Attaque hashcat
 
 A manière de comparaison, réaliser l'attaque sur le [fichier de capture](files/PMKID_handshake.pcap) utilisant la méthode décrite [ici](https://hashcat.net/forum/thread-7717.html).
+
+
+
+Voici le résultat des commandes `hcxpcaptool` et `hashcat` :
+
+![](./img/part3_1.jpg)
+
+![](./img/part3_2.jpg)
+
+Cette approche apporte certains avantages qui sont les suivants :
+
+- Très simple à mettre en place.
+- Optimisation des performances de bruteforcing avec hashcat.
 
 
 ## Livrables
